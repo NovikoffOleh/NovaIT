@@ -15,9 +15,11 @@ ul{
   list-style-type: none;
 }
 body{
-  font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 24px;
     font-weight: 400;
     font-style: normal;
+    line-height: 1.1;
 }
 button{
   background-color: transparent;
@@ -64,17 +66,30 @@ button{
   height: 3px;
   
 }
+.header__img{
+padding-top: 50px;
+align-content: center;
+}
 
 .header__content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
+.title_one{
+  font-size: 300px;
+    margin: 0 auto;
+    
+    background: linear-gradient(180deg, #d20704 0%, #dfc206 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 .title {
   /* GAME */
     font-size: 100px;
-    
+    margin: 0 auto;
     background: linear-gradient(180deg, #5e05ac 0%, #b0150a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -87,9 +102,11 @@ button{
 
 .sub-title_txt{
   
-  font-size: 90px;
-  
-  background: linear-gradient(90deg, #FF5017 0%, #5e05ac 100%);
+  font-size: 60px;
+  align-self: self-end;
+  padding-top: 150px;
+  padding-right: 75px;
+  background: linear-gradient(90deg, #9c1309 0%, #5e05ac 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
