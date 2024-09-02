@@ -116,3 +116,21 @@ align-content: center;
   text-fill-color: transparent;
 }
 
+.info{
+  background-color: #f8f8f8;
+}
+.info{
+  padding: 170px 0;
+}
+.info__title {
+    text-align: center;
+    line-height: .8;
+    font-size: 80px;
+  }
+
+    .info__content {}
+
+    .info__list {}
+
+  &__galery {}
+}
