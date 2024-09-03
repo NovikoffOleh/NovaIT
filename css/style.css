@@ -16,7 +16,7 @@ ul{
 }
 body{
     font-family: "Luckiest Guy", cursive;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
     font-style: normal;
     line-height: 1.1;
@@ -75,6 +75,8 @@ align-content: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .title_one{
   font-size: 400px;
@@ -117,41 +119,73 @@ align-content: center;
 }
 
 .info{
-  background-color: #f8f8f8;
+  background-color: #eae6e6;
 }
 .info{
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .info__title {
     text-align: center;
-    line-height: .8;
-    font-size: 80px;
-    color: #c52107;
+    line-height: 1;
+    font-size: 70px;
+    /*color: #c52107;*/
+    background: linear-gradient(180deg, #ca0704 0%, #dfc206 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
   }
+
+    .info__title-content{
+        text-align: center;
+        line-height: 1;
+        font-size: 30px;
+        /*color: #c52107;*/
+        background: linear-gradient(180deg, #ca0704 0%, #dfc206 100%);
+        /*background: linear-gradient(180deg, #d20704 0%, #dfc206 100%);*/
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+
   .info__img{
     margin: 0 auto;
     max-width: 100%;
+
   }
 
-    .info__content {
-      display: flex;
-      align-items: center;
+    /*
+    .info__galery {
       padding-top: 30px;
-      padding-bottom: 30px;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      border-radius: 30px;
+      column-count: 3;
     }
 
-    .info__list {
-      columns: 3;
-      text-align: center;
+    .info__galery img{
+      max-width: 100%;
     }
+    */
 
-    .info__galery {}
-
-    .info__list dt,
-    .info__list dd{
-      display: inline-block;
-        
-    }
-    .info__list-line{
-      
-    }
+        .info__galery {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          gap: 20px;
+          justify-content: center;
+          padding-top: 30px;
+          border-radius: 30px;
+        }
+    
+        .info__galery img {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+          height: auto;
+          
+        }
+    
+    
