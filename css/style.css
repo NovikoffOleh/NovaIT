@@ -79,11 +79,10 @@ align-content: center;
   max-width: 100%;
 }
 .title_one{
-  font-size: 400px;
+   font-size: 400px;
     margin: 0 auto;
-    
+    text-align: center;
     background: linear-gradient(180deg, #ca0704 0%, #dfc206 100%);
-    /*background: linear-gradient(180deg, #d20704 0%, #dfc206 100%);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -93,8 +92,8 @@ align-content: center;
   /* GAME */
     font-size: 100px;
     margin: 0 auto;
+    text-align: center;
     background: linear-gradient(180deg, #c52107 0%, #d7ef03 100%);
-    /*background: linear-gradient(180deg, #5e05ac 0%, #b0150a 100%);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -119,7 +118,7 @@ align-content: center;
 }
 
 .info{
-  background-color: #eae6e6;
+  background-color: #d0ebea;
 }
 .info{
   padding: 30px 0;
@@ -128,7 +127,6 @@ align-content: center;
     text-align: center;
     line-height: 1;
     font-size: 70px;
-    /*color: #c52107;*/
     background: linear-gradient(180deg, #ca0704 0%, #dfc206 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -155,25 +153,9 @@ align-content: center;
 
   }
 
-    /*
-    .info__galery {
-      padding-top: 30px;
-      display: block;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      border-radius: 30px;
-      column-count: 3;
-    }
-
-    .info__galery img{
-      max-width: 100%;
-    }
-    */
-
         .info__galery {
           display: grid;
-          grid-template-columns: repeat(2, auto);
+          grid-template-columns: repeat(3, auto);
           gap: 20px;
           justify-content: center;
           padding-top: 30px;
