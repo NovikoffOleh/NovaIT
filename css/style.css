@@ -169,5 +169,62 @@ align-content: center;
           height: auto;
           
         }
+
+        /* модальное окно */
+
+        .button{
+          margin-top: 40px;
+          text-align: center;
+        }
+        .pop_up {
+          display: none;
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          left: 0; 
+          top: 0;
+          background-color: #cdb8b8;
+          z-index: 2;
+
+        } 
+        .pop_up_container{
+          display: flex;
+          width: 100%;
+          height: 100%;
+
+        }
+        .pop_up_body{
+          
+          margin: auto;
+          width: 500px;
+          background-color: #fff;
+          border-radius: 20px;
+          text-align: center;
+          padding: 100px 15;
+          position: relative;
+
+        }
+
+        .pop_up_body button{
+          display: block;
+          cursor: pointer;
+          width: 300px;
+          margin: 20px auto 0 auto;
+          padding: 20px 0;
+          
+          border: none;
+          border-radius: 20px;
+          color: #ffff;
+          background-color: #0e3dd7;
+        }
+
+        .pop_up_close{
+          padding-top: 10px;
+        }
+
+        .pop_up.active{
+          display: block;
+        }
+                  
     
     
